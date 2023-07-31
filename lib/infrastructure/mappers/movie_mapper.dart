@@ -12,7 +12,7 @@ class MovieMapper {
         originalTitle: moviedb.originalTitle,
         overview: moviedb.overview,
         popularity: moviedb.popularity,
-        posterPath: moviedb.posterPath != '' ? 'https://image.tmdb.org/t/p/w500${moviedb.posterPath}' : 'no-poster',
+        posterPath: moviedb.posterPath != '' ? 'https://image.tmdb.org/t/p/w500${moviedb.posterPath}' : 'https://m.media-amazon.com/images/I/51+GjnbXsMS._AC_UF894,1000_QL80_.jpg',
         releaseDate: moviedb.releaseDate,
         title: moviedb.title,
         video: moviedb.video,
